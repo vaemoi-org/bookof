@@ -1,4 +1,4 @@
-# Getting Started \(Our basic dev tools\)
+# Getting Started \(Dev Setup\)
 
 In the physical world we have a paper trail for two reasons: \(~~proof~~ logic\) and magic. The logic is simple and can be summarized as such:
 
@@ -10,7 +10,21 @@ To handle the different streams of changes that come along with a budding projec
 
 ## Design
 
+Designs should be iterative, Designs should be open and Designs should be examples. This translates to mean that we want our design, mocks, wireframes, etc. to be as easily accessible as our code. [Figma](https://figma.com) meets our requirements as a collaborative design tool.
+
+![](https://lh5.googleusercontent.com/13azgqaJX3KYaF8UhIPwDP0_GxxcAkIa1CxDfRf1eLQC-Yt2CxhQq4AZ3zNRS5YZSAjFhvKFmcuWTALFoDPUjlA7Q_9VOA62fmFU013MWdMGM69JzDi59aQFck0hqtyPoeu0mnqsbNw)
+
 ## DevOps
+
+#### Hosting
+
+\(Bitbucket \|\| Gitlab \) &gt; Github
+
+read [this](https://github.com/dear-github/dear-github) first.
+
+This is just our personal opinion at the moment but we find that [Bitbucket](https://bitbucket.org) provides some of the best tools and integrations for source code, not to mention they offer free private repos!
+
+Alas the rest of the world doesn't share this opinion and insists on [Github](https://github.com/) only services...so we adapt but our main development stays in the bucket \(so to speak\).
 
 #### Version Control
 
@@ -19,6 +33,8 @@ Writing code is easy, organizing code is hard. Version control \(VCS\) is the so
 Then came _**git-flow**_!
 
 Git flow came about from this [article](http://nvie.com/posts/a-successful-git-branching-model/) on a successful branching model with git from Vincent Driessen.
+
+![](https://lh6.googleusercontent.com/Z8uJe3BxTooZmCzPCcAh4rQMYsw7TMwFSDfKRxypWgY2XH069xNAnti7uVfMp1XwUipNIrG9jGRoEm_kXTyEBsrdIhMZHPiMm3GbMTZEi6x1KnTU_zXI139mj2l4rXwy6UEw6SrjAgY)
 
 The cheatsheet [here](http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html) provides a great workflow example but we'll show it here quickly.
 
@@ -77,6 +93,8 @@ Our python development hasn't started yet but we'll fill this in as we begin \(o
 
 ##### javascript \(needs editing\)
 
+npm organization -&gt; [https://www.npmjs.com/org/vaemoi](https://www.npmjs.com/org/vaemoi)
+
 For javascript we use yarn for package management and npm tasks to handle our tasks. While other options do exists and I've seem some awesome example used in production in my work experience, we find that those solution provide upfront benefits of easy setup but after awhile can become quite tangled but npm tasks provide basic tools that are scalable for small to medium size teams. Some of our favorite module are:
 
 * _**concurrently **_**-** cross platform way to run tasks in parallel
@@ -85,9 +103,17 @@ For javascript we use yarn for package management and npm tasks to handle our ta
 
 Check [here](https://medium.com/@vaemoi/writing-wver-a-the-engine-for-rev-part-i-2984f2991dad) for an article/series on javascript development by us!
 
-#### Continuous Integration
+#### Continuous Integration/Delivery
 
-## Scrum
+Every change should be evaluated to see if an error has been introduced into the system. Along with test driven development, we use [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) inter-build testing
+
+![](https://lh5.googleusercontent.com/5_WEPZ9j3Gzw_R3-_VfmwjiWVW5sV_MxhKRlAkjLpmdKXsEa7AZxJM98OFLu-7KNbQtER6oTpLzmzI4cakoDSTLdXyliOSffb01fRbjGK47MNFpPd-cIy8-16QrtCpjNRoe5KPcqRI8)
+
+along with [Code Climate](/codeclimate.com) for static analysis.
+
+![](https://lh3.googleusercontent.com/hTJtFPG5WES29oO3yFn26OLjKYVNdSiM958pkVpCTwPNPqEheXr-FTex4n3CyF2Fut8dyva3d503KwypQac6Q6BG6d2x4XKqSDgLJvQMGpIsQo0Ne-fYdfmVxPh6YzWpPn4ue9nxivI)
+
+## Agile-ness
 
 #### Task Management
 
@@ -95,17 +121,32 @@ Our initial try at task management / scrum / kanban began with [taiga.io](https:
 
 but we eventually went with a more functional and dev centric approach with [bitbucket](https://bitbucket.org) and [bucketboard](https://marketplace.atlassian.com/plugins/bucketboard/cloud/overview?utm_source=BB-blog&utm_campaign=bitbucket_fy17q1-momentum-posts&_ga=1.104594437.463701457.1493158077).
 
-For daily standups we're creating a standup bot hosted on now.sh along with a status reporting cli tool and chrome extension that we're calling [_**gala**_](https://bitbucket.org/vaemoi/gala)
+![](https://lh5.googleusercontent.com/1cH1-Yg4Fw0ATNZGhRvmHb_QGztwXXptgmUg7TL2QDptx4mtXLyW3wvphlGPn-SY2Xh2EnuLHOqblSmx3oV-qCqTd_44HGLF-kXEl0v4XOPVvfD7ilYxTuABsSTjen3SvL0-dDc3vjg)
+
+For daily standups we're creating a standup bot hosted on now.sh along with a status reporting cli tool and chrome extension that we're calling [_**gala**_](https://bitbucket.org/vaemoi/gala).
 
 #### Time Management
 
-For time management we recommend [WakaTime](https://wakatime.com) and their various plugins for editors and browsers.
+For time management we recommend [WakaTime](https://wakatime.com) and their various plugins for editors and browsers. \(example from @brwnrclse\)
+
+![](https://lh3.googleusercontent.com/_MbFVK-9BoHf6n8GSkVpI9UniYqF8D-YqADWeO6AO2A1f4M4014cNI7NgHVrxbV61DdPk1SGMPKo4USh8o6M8XM1A_caF1im0wP_5QqZRr2ryxl-Rn1diIhAgvWt_wrkzjCj4t6jJNI)
 
 ## Chat \(aka HQ\)
 
-#### Messaging
+signin here -&gt; [https://vaemoi.slack.com](https://vaemoi.slack.com)
 
-#### Wiring Up
+Request access from -&gt; [brwnrclse@gmail.com](mailto:brwnrclse@gmail.com)
+
+Messages hold valuable information for both the now and the future so keeping them stored and indexed is always a plus! To accomplish this we use [slack](https://slack.com) \(duh\). Slack provides us with a centralized command center of sorts that we can program to send and receive messages to the various services we've employed.
+
+* Hooks
+  * Pipey - Bitbucket piplines status updates \(for each build\)
+  * Loggy - Bitbucket push updates \(for each repo\)
+* Bots
+  * Status Cake - Website and Web server status updates \(pings\)
+  * gala - A bot for status reporting and daily standups
+* Apps
+  * Figma - Providing team access to figma files
 
 
 
