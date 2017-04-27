@@ -8,12 +8,5 @@ vaemoi want to make changes that take changes and make more changes to those afo
 
 This book is a collection of ideas, opinions and methods to help make gold from your changes quickers. It also exposes the inner workings of fosst and how it develops and works. \(A living document\)
 
-We are currently examining the following topics:
-
-* ##### **Tracking Changes**
-* ##### **Communicating Changes**
-* ##### **Understanding Changes**
-* ##### **Exposing Changes**
-
-
+The chapter are a guide to 
 
