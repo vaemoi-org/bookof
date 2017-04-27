@@ -56,8 +56,6 @@ The cool thing about git flow is that once a release is finished the master bran
 
 Everyone has their own machine and that machine is special to them and tinkered to their liking.
 
-
-
 ![](/assets/toaster %281%29.png)
 
 and that's awesome, we shouldn't have to invade your digital space to get our code working. The solution is to use some version manager for languages that can get hairy:
@@ -92,6 +90,10 @@ Check [here](https://medium.com/@vaemoi/writing-wver-a-the-engine-for-rev-part-i
 ## Scrum
 
 #### Task Management
+
+Our initial try at task management / scrum / kanban began with [taiga.io](https://taiga.io)
+
+but we eventually went with a more functional and dev centric approach with [bitbucket](https://bitbucket.org) and [bucketboard](https://marketplace.atlassian.com/plugins/bucketboard/cloud/overview?utm_source=BB-blog&utm_campaign=bitbucket_fy17q1-momentum-posts&_ga=1.104594437.463701457.1493158077)
 
 #### Time Management
 
