@@ -95,7 +95,7 @@ Our initial try at task management / scrum / kanban began with [taiga.io](https:
 
 but we eventually went with a more functional and dev centric approach with [bitbucket](https://bitbucket.org) and [bucketboard](https://marketplace.atlassian.com/plugins/bucketboard/cloud/overview?utm_source=BB-blog&utm_campaign=bitbucket_fy17q1-momentum-posts&_ga=1.104594437.463701457.1493158077).
 
-For daily standups we're creating a standup bot hosted on now.sh along with a status reporting cli tool and chrome extension that we're calling
+For daily standups we're creating a standup bot hosted on now.sh along with a status reporting cli tool and chrome extension that we're calling [_**gala**_](https://bitbucket.org/vaemoi/gala)
 
 #### Time Management
 
