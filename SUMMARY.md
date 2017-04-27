@@ -5,8 +5,7 @@
 * [Chapter 2](communicating-changes.md)
 * [Chapter 3](understanding-changes.md)
 * [Chapter 4](exposing-changes.md)
-* [Projects](rev.md)
+* [rev](rev.md)
 * [revit](revit.md)
 * [wver](wver.md)
-* rev
 
