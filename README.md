@@ -6,11 +6,7 @@ vaemoi want to make changes that take changes and make more changes to those afo
 
 ![](assets/moi.png)
 
-
-
-
-
-This book is a collection of ideas, opinions and methods to help make gold from your changes quickers. \(A living document\)
+This book is a collection of ideas, opinions and methods to help make gold from your changes quickers. It also exposes the inner workings of fosst and how it develops and works. \(A living document\)
 
 We are currently examining the following topics:
 
