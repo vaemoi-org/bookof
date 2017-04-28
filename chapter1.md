@@ -1,4 +1,4 @@
-# Getting Started \(Dev Setup\)
+# Getting Started \(Dev Setup\)\(w.i.p\)
 
 In the physical world we have a paper trail for two reasons: \(~~proof~~ logic\) and magic. The logic is simple and can be summarized as such:
 

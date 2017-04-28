@@ -1,14 +1,18 @@
-# Launching and Scaling
-
-### Setting Up
+# Launching and Scaling \(w.i.p\)
 
 #### Hosting
 
-#### DNS
+For quick hosting use [now.sh](https://now.sh) or [surge.sh](https://surge.sh) as they provide near instant deploys and global CDN.
 
-#### CDN
+#### DNS+Domains
+
+For grabbing a domain grab something from Namecheap for Education if you're a student or just use Namecheap or Rebrandly for cheap popular domain names.
 
 ### Services
+
+#### [Graph.cool](#graphcool)
+
+#### [Auth0](/auth0.com)
 
 #### 
 
