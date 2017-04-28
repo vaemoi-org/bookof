@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "-highlight",
+    "html5-video",
+    "offline",
+    "prism",
+    "youtube"
+  ],
+  "pluginsConfig": {
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    }
+  }
+}
