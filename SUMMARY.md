@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Problem](problem.md)
 * [Chapter 1 \(Tracking changes\)](chapter1.md)
 * [Chapter 2 \(Developing changes\)](communicating-changes.md)
 * [Chapter 3 \(Releasing changes\)](understanding-changes.md)
