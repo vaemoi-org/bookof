@@ -79,23 +79,9 @@ Our python development hasn't started yet but we'll fill this in as we begin
 
 npm organization -&gt; [https://www.npmjs.com/org/vaemoi](https://www.npmjs.com/org/vaemoi)
 
-For javascript we use yarn for package management and npm tasks to handle our tasks. Some of our favorite module are:
-
-* _**concurrently **_**-** cross platform way to run tasks in parallel
-* _**rimraf **_**-** cross platform way to remove files and folders recursively
-* _**mkdirp**_ **-** cross platform way to create folders recursive
-
-Check [here](https://medium.com/@vaemoi/writing-wver-a-the-engine-for-rev-part-i-2984f2991dad) for an article/series on javascript development by us!
+For javascript we use yarn for package management and npm tasks to handle our tasks. Check [here](https://medium.com/@vaemoi/writing-wver-a-the-engine-for-rev-part-i-2984f2991dad) for an article/series on javascript development by us!
 
 #### Continuous Integration/Delivery
 
 Every change should be evaluated to see if an error has been introduced into the system. Along with test driven development, we use [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) along with [Code Climate](/codeclimate.com) for static analysis.
-
-
-
-
-
-
-
-
 

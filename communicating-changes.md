@@ -1,6 +1,6 @@
-# Development Workflows \(w.i.p\)
+# Development Workflows
 
-When it came to development, no matter how close we were physically because every team member has his or her own day job and life outside of the project, we decided to operate like a distributed team. This meant _**everything from standups and designing to testing and releasing had to be accessible by any team member from any machine.**_ From this single requirement came our collection of tools mentioned in [Chapter 1 ](/chapter1.md)and the following workflow suggestions.
+When it came to development, no matter how close we were physically because every team member has his or her own day job and life outside of the project, we decided to operate like a distributed team. This meant _**everything from messaging to designing to testing and releasing had to be accessible by any team member from any machine.**_ From this single requirement came our collection of tools mentioned in [Setup ](/chapter1.md)and the following workflow suggestions.
 
 ### Editors
 
@@ -20,7 +20,17 @@ SublimeText packages and starter config can be found [here](https://bitbucket.or
 
 For linting in ruby we use [rubocop](http://rubocop.readthedocs.io/en/latest/) and a default config to use can be found [here](https://bitbucket.org/brwnrclse/dotty)
 
-#### Gem
+#### Gems
+
+###### Setting up dependencies
+
+Start by install [bundler](/bundler.io)
+
+Then install dependencies by running bundler from the project folder:
+
+```
+bundle
+```
 
 ###### Testing
 
@@ -56,7 +66,9 @@ bundle rake build
 bundle rake release
 ```
 
-### Javascript \(with npm\)
+### Javascript
+
+###### Setting up dependencies
 
 Start by installing [npm](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -66,15 +78,17 @@ If you're wondering why you need both, check [here](https://code.facebook.com/po
 
 When installing packges make sure to ALWAYS USE YARN, this ensures that the correct versions are installed on each machine.
 
-Since we use npm scripts to power our devops tasks, we have the entire npm directory of tools to use!
+###### Managing Things \(building, concatting, testing , converting images, etc\)
 
-We simply define a task in the section:
+We simply define a task in the section of the `package.json`:
 
 ![](/assets/Screen Shot 2017-04-28 at 2.51.40 AM.png)
 
 Then we can run the task like so:
 
 ![](/assets/Screen Shot 2017-04-28 at 2.52.01 AM.png)
+
+As far as running scripts is concerned 
 
 ### Static Sites and Assets
 
