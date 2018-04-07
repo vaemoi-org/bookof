@@ -20,6 +20,10 @@ SublimeText packages and starter config can be found [here](https://bitbucket.or
 
 For linting in ruby we use [rubocop](http://rubocop.readthedocs.io/en/latest/) and a default config to use can be found [here](https://bitbucket.org/brwnrclse/dotty)
 
+You can also have rubocop give you hints within SublimeText via the SublimeLinter package and a config like so:
+
+![](/assets/Screen Shot 2018-04-07 at 5.41.22 PM.png)
+
 #### Gems
 
 ###### Setting up dependencies
@@ -87,7 +91,9 @@ yarn
 
 For linting we use eslint, our default config can be found [~~here~~](https://gitlab.com/vaemoi/dotty)
 
-###### You can configure eslint to work from SublimeText using the SublimeLinter package and a config within your \`a\`  file like so
+You can configure eslint to work from SublimeText using the SublimeLinter package and a config within your   `.sublime-project` file like so:
+
+![](/assets/Screen Shot 2018-04-07 at 5.43.04 PM.png)
 
 ###### Managing Things \(building, concatting, testing , converting images, etc\)
 
