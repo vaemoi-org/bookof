@@ -2,9 +2,7 @@
 
 > \(~~Pics~~ Commits\) or it didn't happen
 
-In other words, if you can't talk about how your project grew from then did you really make it? Was this a though out process Or did you just throw it together at the last minute? Where did the inspiration come from, how were certain features implemented and why? These questions are easy to answer when the development process is tracked and logged.
-
-To handle the different streams of changes that come along with a budding project idea, we employ various tools to turn our workflow data into valuable info:
+To handle the different streams of changes that come along with a budding project idea, we employ various tools to get the most out of our workflow:
 
 ## Design
 
