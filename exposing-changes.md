@@ -18,5 +18,9 @@ A cool example of this is in our CLI when an error occurs:
 
 To gain exposure on social media we employ the use of OpenGraph tags as well as twitter cards. Use the [twitter card validator](https://cards-dev.twitter.com/validator)
 
-to check your rendered output.
+to check your rendered output like so:
+
+
+
+![](/assets/Screen Shot 2018-04-07 at 6.04.02 PM.png)
 
