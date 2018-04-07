@@ -50,6 +50,8 @@ git flow release start v1.0.0
 git flow release finish v1.0.0
 ```
 
+Our code is across [Github](https://github.com/vaemoi) / [Gitlab](https://gitlab.com/vaemoi) / [Bitbucket ](https://bitbucket.org/vaemoi)
+
 #### Personal Envs
 
 Everyone has their own machine and that machine is special to them and tinkered to their liking.
