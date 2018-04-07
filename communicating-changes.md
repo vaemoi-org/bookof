@@ -34,7 +34,13 @@ You can also install you current version of the gem locally and play around with
 
 ```bash
 bundle rake build
-bundle rake install:local # or
+bundle rake install # or install:local if you don't have a network connection
+```
+
+Also also you can just run the gem's code live in a shell using IRB via the script \(usually in\) `bin/console` like so \(from within the gem folder\):
+
+```
+./bin/console
 ```
 
 ###### Release
@@ -49,8 +55,6 @@ Releasing is as easy as:
 bundle rake build
 bundle rake release
 ```
-
-
 
 ### Javascript \(with npm\)
 
