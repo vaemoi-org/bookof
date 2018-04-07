@@ -10,7 +10,7 @@ Designs should be iterative, Designs should be open and Designs should be exampl
 
 **We're currently looking for a lead designer to take over!!**
 
-## DevOps
+## Dev
 
 #### Version Control
 
