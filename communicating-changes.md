@@ -22,21 +22,35 @@ For linting in ruby we use [rubocop](http://rubocop.readthedocs.io/en/latest/) a
 
 #### Gem
 
-When creating a ruby gem the first thing to do is setup the environment by setting the ruby version with a `.ruby-version` file:
+###### Testing
 
-![](/assets/Screen Shot 2017-04-28 at 2.28.20 AM.png)
+From within the project directory tweak the `Rakefile` run:
 
-Next you install bundler and tell it to install dependencies to a local folder and set that folder as the GEM\_HOME:
+```bash
+bundle rake
+```
 
-![](/assets/Screen Shot 2017-04-28 at 2.30.49 AM.png)
+You can also install you current version of the gem locally and play around with it using
 
-![](/assets/Screen Shot 2017-04-28 at 2.36.44 AM.png)
+```bash
+bundle rake build
+bundle rake install:local # or
+```
 
-![](/assets/Screen Shot 2017-04-28 at 2.31.26 AM.png)
+###### Release
 
-#### Rails
+To release the module you need to have an account with RubyGems and be added to the `email` portion of the `.gemspec`
 
-Coming soon!
+file.
+
+Releasing is as easy as:
+
+```bash
+bundle rake build
+bundle rake release
+```
+
+
 
 ### Javascript \(with npm\)
 
@@ -46,7 +60,7 @@ Then install [yarn](https://yarnpkg.com/en/)
 
 If you're wondering why you need both, check [here](https://code.facebook.com/posts/1840075619545360) and ask questions [here](https://twitter.com/yarnpkg)
 
-When installing packges make sure to ALWAYS USE YARN, this ensures that the same packages and version are installed on each machine.
+When installing packges make sure to ALWAYS USE YARN, this ensures that the correct versions are installed on each machine.
 
 Since we use npm scripts to power our devops tasks, we have the entire npm directory of tools to use!
 
@@ -58,11 +72,7 @@ Then we can run the task like so:
 
 ![](/assets/Screen Shot 2017-04-28 at 2.52.01 AM.png)
 
-### Python \(with pypi\)
-
-Coming soon!
-
-### Static Site
+### Static Sites and Assets
 
 For static sites we like using [pug](https://pugjs.org/) \(fomerly jade\) and [stylus](http://stylus-lang.com). We picked these tools because they simply make writing HTML and CSS easier and still allow plain HTML and CSS to be used if that's your fancy.
 
@@ -74,7 +84,7 @@ And extend it to use in each page:
 
 ![](/assets/Screen Shot 2017-04-28 at 3.03.42 AM.png)
 
-Stylus works in much the same way but it also provides variables for css via the `$` symbol
+Stylus works in much the same way for CSS providing variables for css via the `$` symbol
 
 ![](/assets/Screen Shot 2017-04-28 at 3.06.14 AM.png)
 

@@ -1,20 +1,22 @@
-# Launching and Scaling \(w.i.p\)
+# 3rd Party Services
 
-#### Hosting
-
-For quick hosting use [now.sh](https://now.sh) or [surge.sh](https://surge.sh) as they provide near instant deploys and global CDN.
-
-#### DNS+Domains
-
-For grabbing a domain grab something from Namecheap for Education if you're a student or just use Namecheap or Rebrandly for cheap popular domain names.
+For quick hosting use [now.sh](https://now.sh) / [surge.sh](https://surge.sh) / [github pages](https://pages.github.com/) / [gitlab pages](https://about.gitlab.com/features/pages/) as they provide near instant deploys and global CDN.
 
 ### Services
 
-#### [Graph.cool](#graphcool)
+#### [Graph.cool](#graphcool) - API / Serverless Backend
 
-#### [Auth0](/auth0.com)
+#### [Auth0](/auth0.com) - User Identity & Authentication / OAuth Login
 
-#### 
+#### [Sentry](https://sentry.io)  - Remote Error Logging in Production
+
+#### [Gitlab](https://gitlab.com) - Project Mangement / Code Hosting / Static Sites / Issues & Bugs
+
+#### [Slack](https://slack.com) - Team Communication \(request access from **brwnrclse@vaemoi.co**\)
+
+#### [Github](https://github.com) / [Bitbucket](https://bitbucket.org) / [Gitlab](https://gitlab.com) APIs - for accessing user Pull Requests & Snippets
+
+####  
 
 
 
