@@ -76,7 +76,18 @@ Then install [yarn](https://yarnpkg.com/en/)
 
 If you're wondering why you need both, check [here](https://code.facebook.com/posts/1840075619545360) and ask questions [here](https://twitter.com/yarnpkg)
 
-When installing packges make sure to ALWAYS USE YARN, this ensures that the correct versions are installed on each machine.
+Install dependencies like so:
+
+```
+cd project_folder
+yarn
+```
+
+###### Linting
+
+For linting we use eslint, our default config can be found [~~here~~](https://gitlab.com/vaemoi/dotty)
+
+###### You can configure eslint to work from SublimeText using the SublimeLinter package and a config within your \`a\`  file like so
 
 ###### Managing Things \(building, concatting, testing , converting images, etc\)
 
