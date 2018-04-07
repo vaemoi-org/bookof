@@ -80,15 +80,13 @@ When installing packges make sure to ALWAYS USE YARN, this ensures that the corr
 
 ###### Managing Things \(building, concatting, testing , converting images, etc\)
 
-We simply define a task in the section of the `package.json`:
+We simply define a task in the section of the `package.json` :
 
 ![](/assets/Screen Shot 2017-04-28 at 2.51.40 AM.png)
 
 Then we can run the task like so:
 
 ![](/assets/Screen Shot 2017-04-28 at 2.52.01 AM.png)
-
-As far as running scripts is concerned 
 
 ### Static Sites and Assets
 

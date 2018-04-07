@@ -71,11 +71,7 @@ With ruby we found that these tools offer the best balance of usability and flex
 
 Check [here](https://medium.com/@vaemoi/developing-revit-a-graphql-powered-ruby-cli-dcbcbee2b9e5) for an article/series on ruby development by us!
 
-##### python \(coming soon\)
-
-Our python development hasn't started yet but we'll fill this in as we begin
-
-##### javascript \(needs editing\)
+##### javascript
 
 npm organization -&gt; [https://www.npmjs.com/org/vaemoi](https://www.npmjs.com/org/vaemoi)
 
